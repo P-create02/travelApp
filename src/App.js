@@ -5,7 +5,7 @@ import { FaWindowClose, FaTemperatureHigh, FaRegFlag, FaHome, FaCloud } from 're
 import { GiWindsock } from 'react-icons/gi'
 import Map from './Map'
 
-const url = `http://api.openweathermap.org/data/2.5/weather?appid=${process.env.REACT_APP_WEATHER}&units=imperial&q=`
+const url = `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.REACT_APP_WEATHER}&units=imperial&q=`
 
 export default function App() {
   const [city, setCity] = React.useState('')
